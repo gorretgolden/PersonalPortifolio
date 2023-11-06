@@ -4,9 +4,9 @@ nav{
 }
 /*navbar logo */
 .logo{
-    width: 80px;
-    height: 80px;
-    margin-left: 30px;
+    width: 85px;
+    height: 85px;
+    margin-left: 40px;
 }
 
 
@@ -29,8 +29,8 @@ nav{
 /* lets chat navbar button  */
 .navbar-chat-button{
     border-radius: 20px;
-    background-color: blueviolet;
-    color: white;
+    background-color: white;
+    color: blueviolet;
     margin-right: 50px;
     border: none;
     padding: 12px;
@@ -40,4 +40,45 @@ nav{
 
 .button-container{
     margin-right: 30px;
+}
+
+body{
+    margin: auto;
+}
+.header-home{
+    margin: 0px;
+    padding: 60px;
+    background-color: white;
+    height: 100%;
+    margin-bottom: 20px;
+  
+}
+.name{
+    color: rgb(181, 120, 238);
+    font-weight: bold;
+}
+.welcome-text{
+    font-size: 18px;
+}
+.hire-me-btn{
+    
+    border:2px solid blueviolet;
+}
+.header-image{
+    width: 500px;
+    height: 500px;
+}
+.skills{
+    background-color: #F8F9FF;
+    padding: 50px;
+    margin: 0px;
+    height: 80%;
+}
+
+.footer{
+    margin: 0px;
+    background-color: black;
+    padding: 50px;
+    color: white;
+    margin: 0px;
 }
