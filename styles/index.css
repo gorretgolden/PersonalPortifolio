@@ -1,0 +1,43 @@
+
+nav{
+    background-color: black;
+}
+/*navbar logo */
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+
+
+/*responsive navbar text padding*/
+@media (min-width: 992px){
+    .navbar li {
+        margin-left : 1.8em;
+        margin-right : 1.8em;
+    }
+}
+
+.nav-text-style{
+    font-weight: 500;
+}
+
+.button-container{
+  padding-right: 20px;
+}
+
+/* lets chat navbar button  */
+.navbar-chat-button{
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    margin-right: 50px;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.button-container{
+    margin-right: 30px;
+}
