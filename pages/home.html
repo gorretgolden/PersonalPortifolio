@@ -14,6 +14,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+        <meta charset="utf-8">
+        <meta name="description" content="Html basics">
 </head>
 
 <body>
@@ -46,9 +48,7 @@
                             <li class="nav-item">
                                 <a class="nav-link text-white" href="../pages/about.html">About Me</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="../pages/about.html">Skills</a>
-                            </li>
+                           
 
                             <li class="nav-item dropdown">
                                 <a class="nav-link text-white dropdown-toggle" href="../pages/skills.html"
@@ -90,8 +90,8 @@
 
     <!--Home header section-->
     <section class="header-home">
-        <div class="container-fluid row marign-auto">
-            <div class="col-lg-6">
+        <div class=" row">
+            <div class="col-lg-6 col-md-8 mt-4">
 
                 <h3>Hello there, I'm <span class="special">Nabatanzi Gorret</span>.<br>
                     Am a full stack Software Developer
@@ -115,7 +115,8 @@
                 </div>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-md-4 px-3 ml-3">
+                <img src="../images/home-image.png" alt="home-image">
 
             </div>
 
@@ -124,7 +125,7 @@
 
     <!--skills-->
     <!--services-->
-    <section class="services">
+    <section class="services mb-5">
         <div class="container-fluid  mb-5">
             <h4 class="font-weight-bold py-4 text-center">My Services</h4><br>
             <div class="row mt-3">
@@ -167,6 +168,39 @@
 
                     </div>
                 </div>
+                <br>
+                <br>
+
+
+
+                <div class="project-images">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
     </section>
 
 
@@ -189,7 +223,7 @@
                     me.
                     Customer feedback is vital in helping me to satisfy their needs.
                 </p>
-
+                <!-- 
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -215,7 +249,7 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="sr-only">Next</span>
                     </a>
-                  </div>
+                  </div> -->
 
                 <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -329,8 +363,8 @@
 
 
 
-<!--jquery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!--Bootrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
