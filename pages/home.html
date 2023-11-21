@@ -22,69 +22,39 @@
 
     <!---Navbar-->
     <section>
-        <div>
-
-
-            <nav class="navbar navbar-expand-lg navbar-light  ">
-                <div class="container-fluid">
-
-                    <!--navbar left-->
-                    <a class="navbar-brand" href="../pages/home.html">
-                        <img class="logo" src='../images/my-logo.png' alt="My Logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon bg-light"></span>
-                    </button>
-
-                    <!--navbar center-->
-                    <div class="d-inline-flex flex-row justify-content-center  collapse navbar-collapse text-center"
-                        id="navbarNavDropdown">
-                        <ul class="navbar-nav nav-text-style">
-                            <li class="nav-item mr-5">
-                                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="../pages/about.html">About Me</a>
-                            </li>
-
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link text-white dropdown-toggle" href="../pages/skills.html"
-                                    id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Services
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="../pages/contact-me.html">Contact Me</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!--navbar right-->
-                    <div class="float-right button-container ">
-                        <div class="row text-center">
-                            <div class="col-10 offset-1">
-                                <button class="navbar-chat-button btn-block">Let's Chat</button>
-                            </div>
-                        </div>
-
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+                <!--navbar left-->
+                <a class="navbar-brand" href="../pages/home.html">
+                    <img class="logo" src='../images/my-logo.png' alt="My Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0  float-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../pages/about.html">About Me</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="../pages/contact-me.html">Contact Me</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <button class="navbar-chat-button">Let's Chat</button>
                     </div>
                 </div>
-            </nav>
-
-
-
-
-        </div>
+            </div>
+        </nav>
+     
 
     </section>
 
@@ -109,7 +79,13 @@
 
                 <div class="buttons-bottom-header">
                     <div class="d-grid gap-4 d-lg-block mb-3 mt-3">
-                        <button class="cv" type="button">Download CV</button>
+
+                        <a class="cv text-center" type="button"
+                            href="https://docs.google.com/document/d/1xUjNy8B--cgAP6Sb0kT63LaNVv8liTOQBqNCKMmA_es/edit?usp=sharing">
+                            View CV
+                            <i class="ml-3 fas fa-arrow-alt-circle-right float-right cv-icon"></i>
+                        </a>
+
 
                     </div>
                 </div>
@@ -140,7 +116,7 @@
                     </div>
 
                 </div>
-                
+
                 <div class="card cards card-2 mt-3 p-4" style="width: 18rem;">
                     <div class="card-body">
                         <i class="fa fa-laptop-code d-flex justify-content-center mb-2 "
@@ -165,7 +141,8 @@
                         <i class="fa fa-globe d-flex justify-content-center mb-2 "
                             style="font-size:30px;color:rgb(179, 111, 242);"></i>
                         <h5 class="card-title">API Development</h5>
-                        <p class="card-text">I develop  Application Programming Interfaces for mobile apps and web applications.</p>
+                        <p class="card-text">I develop Application Programming Interfaces for mobile apps and web
+                            applications.</p>
 
                     </div>
                 </div>
@@ -205,25 +182,23 @@
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                             <div class="d-flex justify-content-center">
-                                   <img src="../images/testimonial-one.png"
-                                    class="d-block w-50 img-thumbnail" alt="...">
-                             </div>
-                               
+                                <div class="d-flex justify-content-center">
+                                    <img src="../images/testimonial-one.png" class="d-block w-50 img-thumbnail"
+                                        alt="...">
+                                </div>
+
                             </div>
                             <div class="carousel-item">
-                             <div class="d-flex justify-content-center">
-                                   <img src="../images/testimonial2.png"
-                                    class="d-block w-50" alt="...">
-                             </div>
-                               
+                                <div class="d-flex justify-content-center">
+                                    <img src="../images/testimonial2.png" class="d-block w-50" alt="...">
+                                </div>
+
                             </div>
                             <div class="carousel-item">
-                             <div class="d-flex justify-content-center">
-                                   <img src="../images/testimonial3.png"
-                                    class="d-block w-50" alt="...">
-                             </div>
-                               
+                                <div class="d-flex justify-content-center">
+                                    <img src="../images/testimonial3.png" class="d-block w-50" alt="...">
+                                </div>
+
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"

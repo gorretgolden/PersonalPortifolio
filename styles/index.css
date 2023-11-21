@@ -86,9 +86,14 @@ body {
     color: white;
     background-color: blueviolet;
     border: none;
-    padding: 15px;
+    padding: 12px;
+    text-decoration: none;
     border-radius: 50px;
 
+}
+.cv-icon{
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .cv:hover {
