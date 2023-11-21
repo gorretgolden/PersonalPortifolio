@@ -295,5 +295,9 @@ font-size: 17px;
     }
    
   }
-
-  
+a:hover{
+    color:blueviolet
+}
+i:hover{
+    color: blueviolet;
+}  
