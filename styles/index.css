@@ -301,3 +301,29 @@ a:hover{
 i:hover{
     color: blueviolet;
 }  
+.btn-project-site{
+
+    color: white;
+    text-decoration: none;
+   
+}
+.btn-project-site:hover{
+
+    color: white;
+    text-decoration: none;
+   
+}
+.btn-project{
+    background-color: blueviolet;
+    border-radius: 8px;
+    width: 60px;
+    border: none;
+    padding:8px;
+    color: white;
+}
+.btn-project:hover{
+    background-color: black;
+    color:blueviolet;
+    box-shadow: #f7f7f7;
+
+}
