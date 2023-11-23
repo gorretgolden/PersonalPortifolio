@@ -60,7 +60,7 @@ body {
 }
 
 .header-contact{
-    text-align: center;
+    
     background-color: #F8F9FF;
     height: 100%;
     margin-bottom: 20px;
@@ -246,8 +246,8 @@ font-size: 17px;
 }
 
 .contact-vector{
-   
-    width: 100vh
+    width: 100vh;
+    margin-right: -30px;
     
 }
 .icon-bg{
@@ -293,6 +293,10 @@ font-size: 17px;
         width: 400px;
         height: 300px
     }
+    .card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
    
   }
 a:hover{
@@ -326,4 +330,7 @@ i:hover{
     color:blueviolet;
     box-shadow: #f7f7f7;
 
+}
+.personal-projects{
+    margin: 20px;
 }
