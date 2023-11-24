@@ -252,11 +252,7 @@ font-size: 17px;
     margin-bottom: 20px;
 }
 
-.contact-vector{
-    width: 100vh;
-    margin-right: -30px;
-    
-}
+
 .icon-bg{
     background-color: blueviolet;
     border-radius: 50%;
@@ -273,6 +269,9 @@ font-size: 17px;
     text-align: center;
     padding: 10px;
 }
+.contact-vector{
+    width: 800px;
+}
 
 .contact-info:hover{
     border: 1px solid #dee1f3;
@@ -285,9 +284,14 @@ font-size: 17px;
 @media only screen and (max-width: 600px) {
     .contact-info{
         width: 100%
+    }.form-container{
+        margin-top: -80px;
     }
     .contact-vector{
         width: 800px;
+        margin-left: -200px;
+        margin-bottom: -20px;
+        margin-top: -90px;
     }
     .header-image{
         width: 300px;
