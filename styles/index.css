@@ -182,7 +182,14 @@ font-size: 17px;
 }
  
 
- 
+ .whatsap-link{
+    text-decoration: none;
+    color: black;
+
+ }
+ .whatsap-link:hover{
+    color:blueviolet
+ }
 .contact-form {
     padding: 40px 0;
     margin: 0 10px;
