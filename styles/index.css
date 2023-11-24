@@ -95,6 +95,15 @@ body {
     font-size: 20px;
     margin-left: 10px;
 }
+.line{
+    width: 40px;
+    height: 10px;
+    background-color: blueviolet;
+    
+}
+
+
+
 
 .cv:hover {
     color: blueviolet;
@@ -109,6 +118,37 @@ body {
 .header-image {
     width: 500px;
     height: 500px;
+    
+}
+
+.animate-image{
+    animation: fadeInOut 4s infinite;
+}
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.slide-up {
+    animation: slideUp 1s ease-in-out; 
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+.about-image{
+    width: 3vh;
+
+  
 }
 
 .tools {
