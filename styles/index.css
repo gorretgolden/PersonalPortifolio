@@ -335,8 +335,9 @@ font-size: 17px;
     }
     .about-image{
         width: 800px;
-        margin-left: -200px;
-        margin-top: -90px;
+        margin-left: -240px;
+        margin-top: -80px;
+        margin-bottom: -70px;
     }
     .header-image{
         width: 300px;
