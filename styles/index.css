@@ -2,6 +2,14 @@ nav {
     background-color: black;
 }
 
+h3 {
+    line-height: 2; 
+}
+p {
+    line-height: 1.5;
+}
+
+
 nav ul li a:hover {
     color: blueviolet;
 }
